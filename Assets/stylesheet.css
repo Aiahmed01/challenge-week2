@@ -1,0 +1,463 @@
+* {
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+body {
+    
+    background-color: antiquewhite;
+}
+
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #13293d;
+    color: #fff;
+}
+
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0px;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+    margin: 0px;
+    padding: 20px;
+    font-size: 25px;
+
+}
+
+
+
+a ul{
+    text-decoration: none;
+    color: #65948b;
+    border-bottom: 5px solid;
+}
+
+h1 {
+    position: absolute;
+    top: 15px;
+    background-color: rgb(28, 22, 78);
+    font-size: 70px;
+    margin: 19px;
+}
+
+#subpic {
+    background-image: url("./SAAQ.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    position: relative;
+}
+
+
+#coolsub {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    padding: 20px;
+    color: #333;
+    background-color: rgb(28, 22, 78);
+    color: rgb(210, 116, 157);
+}
+
+
+
+
+#coolsub h2 {
+    font-size: 30px;
+    margin: 0;
+
+}
+
+
+.mywork {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-left: 25px;
+
+}
+
+.mywork>h2 {
+    text-align: right;
+    width: 25px;
+    border-right: 5px solid rgb(51, 94, 127);
+
+}
+
+
+.container2 {
+    height: 400px;
+    max-width: 600px;
+    size: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+
+
+}
+
+
+
+.text1 {
+
+    font-size: 25px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    width: 100%;
+}
+
+
+h2 {
+    display: flex;
+    flex-flow: row nowrap;
+    font-size: 39px;
+    color: rgb(48, 137, 179);
+    padding-right: 220px;
+    padding-left: 20px;
+
+}
+
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    /* Add this line */
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    max-width: 600px;
+}
+
+
+.boxes1 {
+    width: 750px;
+    height: 200px;
+    background-image: linear-gradient(rgba(66, 83, 142, 0.3) 0%, rgba(66, 83, 142, 0.6) 100%);
+    color: #fff;
+    font-size: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.boxes {
+    width: 260px;
+    height: 200px;
+    background-image: linear-gradient(rgba(66, 83, 142, 0.3) 0%, rgba(66, 83, 142, 0.6) 100%);
+    color: #fff;
+    font-size: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#project{
+    text-decoration: none;
+    color: white;
+
+}
+.applicationimg{
+    background-image: url(./application.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.container3 {
+    height: 200px;
+    width: 600px;
+    size: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+
+h4 a {
+    text-decoration: none;
+    font-size: 21px;
+    color: blue;
+    border-bottom: none;
+
+}
+
+.foot {
+    position: relative;
+    font-size: 20px;
+    color: rgb(48, 137, 179);
+}
+
+
+
+.boxes:hover
+{box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 1), 0px 0px 30px rgba(0, 0, 0, 1);}
+
+.boxes1:hover
+{box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 1), 0px 0px 30px rgba(0, 0, 0, 1);}
+
+
+
+@media screen and (max-width: 992px) {
+
+
+
+.header {
+    background-color: rgb(108, 112, 113);
+    max-width: 992px;
+
+}
+
+body {
+    background-color: rgb(78, 37, 70);
+    color: rgb(31, 100, 57);
+
+}
+
+h1 {
+    position: absolute;
+    right: 500px;
+    font-size: 28px;
+    background-color: rgb(66, 161, 152);
+}
+
+.mywork>h2 {
+    text-align: center;
+    width: 25px;
+    border-right: none;
+}
+
+.container {
+    max-width: 600px;
+
+}
+
+.container2 {
+    max-width: 600px;
+    max-height: 180px;
+}
+
+.container3 {
+    max-width: 600px;
+}
+
+.mywork {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+
+.links {
+    position: absolute;
+    right: 0px;
+    top: 30px;
+
+}
+
+#subpic {
+    height: 25vh;
+
+}
+
+#coolsub {
+    position: absolute;
+    bottom: 45px;
+    right: 85px;
+    font-size: large;
+    color: #333;
+    color: rgb(178, 64, 176);
+}
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .header {
+        background-color: rgb(108, 112, 113);
+        max-width: 790px;
+
+    }
+
+    body {
+        background-color: rgb(78, 37, 70);
+        color: white;
+
+    }
+
+    h1 {
+        position: absolute;
+        right: 390px;
+        font-size: 30px;
+        background-color: rgb(66, 161, 152); 
+    }
+
+    .mywork>h2 {
+        text-align: center;
+        width: 25px;
+        border-right: none;
+    }
+
+    .container {
+        max-width: 600px;
+
+    }
+
+    .container2 {
+        max-width: 600px;
+        max-height: 180px;
+    }
+
+    .container3 {
+        max-width: 600px;
+    }
+
+    .mywork {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 50px;
+        margin-left: 25px;
+    }
+
+    .links {
+        position: absolute;
+        right: 0px;
+        top: 30px;
+
+    }
+
+    #subpic {
+        height: 25vh;
+
+    }
+
+    #coolsub {
+
+        font-size: small;
+        color: #333;
+
+        color: rgb(178, 64, 176);
+    }
+}
+
+
+
+@media screen and (max-width: 576px) {
+
+
+    .header {
+        background-color: rgb(108, 112, 113);
+        max-width: 600px;
+        padding: ;
+
+    }
+
+    body {
+        background-color: rgb(4, 3, 3);
+        color: white;
+
+    }
+
+    h1 {
+        position: absolute;
+        right: 120px;
+        top: -13px;
+        font-size: 20px;
+        background-color: rgb(66, 161, 152);
+    }
+
+    .mywork>h2 {
+        text-align: center;
+        width: 25px;
+        border-right: none;
+    }
+
+    .container {
+        max-width: 400px;
+
+    }
+
+    .container2 {
+        max-width: 400px;
+        max-height: 180px;
+    }
+
+    .container3 {
+        max-width: 400px;
+        padding: 10px;
+    }
+
+    .mywork {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 50px;
+        margin-left: 25px;
+    }
+
+    .links {
+        display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    }
+
+    #subpic {
+        height: 25vh;
+
+    }
+
+    #coolsub {
+
+        font-size: small;
+        color: #333;
+
+        color: rgb(178, 64, 176);
+    }
+    .text1{
+        font-size: 15px;
+        color: white;
+    }
+
+   
+    h4 a {
+        text-decoration: none;
+        font-size: 12px;
+        color: white;
+        padding: 3px;
+    }
+}
