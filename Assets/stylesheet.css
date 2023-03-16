@@ -164,6 +164,11 @@ h2 {
     align-items: center;
     text-align: center;
 }
+h6
+{background-color: black;
+font-size: large;
+}
+
 
 .boxes {
     width: 260px;
@@ -382,7 +387,7 @@ h1 {
     .header {
         background-color: rgb(108, 112, 113);
         max-width: 600px;
-        padding: ;
+        padding: 45px; ;
 
     }
 
