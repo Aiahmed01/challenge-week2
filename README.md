@@ -41,4 +41,12 @@ I change a lot why i was working and this week i have the minimum commits becaus
 
 # IMGS
 
-	![alt text](image.jpg)
+![alt text](./Assets/2.jpg)
+![alt text](./Assets/3.jpg)
+![alt text](./Assets/4.jpg)
+![alt text](./Assets/5.jpg)
+![alt text](./Assets/6.jpg)
+![alt text](./Assets/8.jpg)
+![alt text](./Assets/9.jpg)
+    
+    
